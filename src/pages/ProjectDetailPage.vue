@@ -1314,9 +1314,7 @@ import { useProjectStore, needToBeAuthenticated } from 'stores/project'
 import { useUserStore } from 'stores/user'
 import Models from 'stores/objects'
 import { getStatusColour, getPriorityColour, sortByDate } from 'stores/utils'
-import AuthenticatedDialog from 'src/components/AuthenticatedDialog.vue'
-import TableComponent from 'src/components/TableComponent.vue'
-import GenericDetailPage from 'components/GenericDetailPage.vue'
+import { AuthenticatedDialog, GenericDetailPage, TableComponent } from 'src/components/index.js'
 
 export default defineComponent({
 

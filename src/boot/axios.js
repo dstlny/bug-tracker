@@ -10,7 +10,7 @@ import { isDevServer } from 'stores/utils'
 // "export default () => {}" function below (which runs individually
 // for each client)
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000/api/v1/',
+  baseURL: 'http://127.0.0.1:8001/api/v1/',
   withCredentials: true
 })
 

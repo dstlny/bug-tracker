@@ -146,8 +146,7 @@ import { useRoute } from 'vue-router'
 import { useProjectStore } from 'stores/project'
 import { useUserStore } from 'stores/user'
 import { sortByDate } from 'stores/utils'
-import GenericDetailPage from 'components/GenericDetailPage.vue'
-import TableComponent from 'src/components/TableComponent.vue'
+import { GenericDetailPage, TableComponent } from 'src/components/index.js'
 
 export default defineComponent({
 

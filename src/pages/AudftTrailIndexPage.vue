@@ -58,7 +58,7 @@
 import { defineComponent, onMounted } from 'vue'
 import { useProjectStore } from 'stores/project'
 import { sortByDate } from 'stores/utils'
-import TableComponent from 'src/components/TableComponent.vue'
+import { TableComponent } from 'src/components/index.js'
 
 export default defineComponent({
   name: 'ProjectsIndexPage',

@@ -204,9 +204,8 @@
 import { defineComponent, onMounted, ref, watch, computed } from 'vue'
 import { useProjectStore } from 'stores/project'
 import { getStatusColour, getPriorityColour } from 'stores/utils'
-import AuthenticatedDialog from 'components/AuthenticatedDialog.vue'
 import { useUserStore } from 'stores/user'
-import TableComponent from 'src/components/TableComponent.vue'
+import { AuthenticatedDialog, TableComponent } from 'src/components/index.js'
 
 export default defineComponent({
   name: 'ProjectsIndexPage',

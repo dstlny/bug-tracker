@@ -42,8 +42,7 @@
 <script>
 import { defineComponent, watch, ref } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
-import LoginForm from 'components/LoginForm.vue'
-import RegisterForm from 'components/RegisterForm.vue'
+import { LoginForm, RegisterForm } from 'src/components/index.js'
 
 export default defineComponent({
   name: 'IndexPage',

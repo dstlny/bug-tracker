@@ -98,9 +98,8 @@
 <script>
 import { defineComponent, onMounted, ref, computed } from 'vue'
 import { useProjectStore } from 'stores/project'
-import AuthenticatedDialog from 'components/AuthenticatedDialog.vue'
 import { useUserStore } from 'stores/user'
-import TableComponent from 'src/components/TableComponent.vue'
+import { TableComponent, AuthenticatedDialog } from 'src/components/index.js'
 
 export default defineComponent({
   name: 'ProjectsIndexPage',
